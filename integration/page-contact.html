@@ -5,23 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 
 <body>
 
-    <!-- ICI AJOUT DU HEADER -->
-
-    <div class="contact__container">
+    <div class="contact">
 
         <!-- Exit button -->
-        <a href="/"><button class="exit__container">X</button></a>
+        <a href="/" class="exit__link"><button class="exit"><i data-feather="x" class="exit__icon"></i></button></a>
 
         <!-- Toggle button -->
-        <div class="toggle__container"></div>
+        <div class="toggle"></div>
 
         <!-- Contact form -->
-        <img src="/" alt="logo" />
-        <h1>Me contacter</h1>
+        <img src="/" alt="logo" class="contact__image" />
+        <h1 class="contact__title">Me contacter</h1>
 
         <form method="POST">
 
@@ -50,7 +49,9 @@
         </form>
     </div>
 
-    <!-- ICI AJOUT DU FOOTER -->
+    <script>
+        feather.replace()
+    </script>
 
 </body>
 

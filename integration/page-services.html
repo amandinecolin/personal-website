@@ -1,16 +1,236 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services</title>
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
+
 <body>
+
+    <!-- DÉBUT DU HEADER -->
+
+    <header class="header">
+
+        <img src="/" alt="logo" class="header__logo" />
+
+        <nav class="header__menu">
+            <ul class="header__menu__list">
+                <li class="header__menu__list__item"><a href="#" class="header__menu__list__item__link">Services</a></li>
+                <li class="header__menu__list__item"><a href="#" class="header__menu__list__item__link">Portfolio</a></li>
+                <li class="header__menu__list__item"><a href="#" class="header__menu__list__item__link">À propos</a></li>
+            </ul>
+            <a href="/"><button>On parle de ton projet ?</button></a>
+        </nav>
+
+        <!-- Toggle light / dark -->
+        <div class="header__toggle">
+            <button>Toggle</button>
+        </div>
+
+    </header>
+
+    <!-- FIN DU HEADER -->
+
+    <!-- Packs -->
+    <section class="packs">
+
+        <h1 class="packs__title">À chaque besoin son pack</h1>
+
+        <div class="packs__flex">
+
+            <!-- Une carte de pack -->
+            <figure class="packs__item">
+                <i data-feather="zap" class="packs__item__icon"></i>
+                <h3 class="packs__item__title">Débutant</h3>
+                <figcaption class="packs__item__list">
+                    <ul class="packs__item__list__all">
+                        <li class="packs__item__list__item"><span class=""><i data-feather="check"
+                                    class="packs__item__icon"></i></span> Identité visuelle</li>
+                        <li class="packs__item__list__item"><span class=""><i data-feather="x"
+                                    class="packs__item__icon"></i></span> Carte de visite</li>
+                        <li class="packs__item__list__item"><span class=""><i data-feather="x"
+                                    class="packs__item__icon"></i></span> Brochure</li>
+                        <li class="packs__item__list__item"><span class=""><i data-feather="x"
+                                    class="packs__item__icon"></i></span> Site vitrine</li>
+                        <li class="packs__item__list__item"><span class=""><i data-feather="x"
+                                    class="packs__item__icon"></i></span> Réseaux sociaux</li>
+                    </ul>
+                </figcaption>
+            </figure>
+
+            <!-- Une carte de pack -->
+            <figure class="packs__item">
+                <i data-feather="heart" class="packs__item__icon"></i>
+                <h3 class="packs__item__title">Intermédiaire</h3>
+                <figcaption class="packs__item__list">
+                    <ul class="packs__item__list__all">
+                        <li class="packs__item__list__item"><span class=""><i data-feather="check"
+                                    class="packs__item__icon"></i></span> Identité visuelle</li>
+                        <li class="packs__item__list__item"><span class=""><i data-feather="check"
+                                    class="packs__item__icon"></i></span> Carte de visite</li>
+                        <li class="packs__item__list__item"><span class=""><i data-feather="check"
+                                    class="packs__item__icon"></i></span> Brochure</li>
+                        <li class="packs__item__list__item"><span class=""><i data-feather="x"
+                                    class="packs__item__icon"></i></span> Site vitrine</li>
+                        <li class="packs__item__list__item"><span class=""><i data-feather="x"
+                                    class="packs__item__icon"></i></span> Réseaux sociaux</li>
+                    </ul>
+                </figcaption>
+            </figure>
+
+            <!-- Une carte de pack -->
+            <figure class="packs__item">
+                <i data-feather="star" class="packs__item__icon"></i>
+                <h3 class="packs__item__title">Expert</h3>
+                <figcaption class="packs__item__list">
+                    <ul class="packs__item__list__all">
+                        <li class="packs__item__list__item"><span class=""><i data-feather="check"
+                                    class="packs__item__icon"></i></span> Identité visuelle</li>
+                        <li class="packs__item__list__item"><span class=""><i data-feather="check"
+                                    class="packs__item__icon"></i></span> Carte de visite</li>
+                        <li class="packs__item__list__item"><span class=""><i data-feather="check"
+                                    class="packs__item__icon"></i></span> Brochure</li>
+                        <li class="packs__item__list__item"><span class=""><i data-feather="check"
+                                    class="packs__item__icon"></i></span> Site vitrine</li>
+                        <li class="packs__item__list__item"><span class=""><i data-feather="check"
+                                    class="packs__item__icon"></i></span> Réseaux sociaux</li>
+                    </ul>
+                </figcaption>
+            </figure>
+
+        </div>
+
+        <div class="packs__solo">
+
+            <!-- Une carte de pack -->
+            <figure class="packs__item">
+                <i data-feather="settings" class="packs__item__icon"></i>
+                <h3 class="packs__item__title">Sur mesure</h3>
+                <figcaption class="packs__item__list">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus obcaecati sint blanditiis repudiandae
+                    eveniet officia facilis nihil odit atque, numquam nostrum sequi esse, magnam vel quos veritatis.
+                    Debitis, ea necessitatibus!
+                </figcaption>
+            </figure>
+
+        </div>
+
+    </section>
+
+
+    <!-- Informations -->
+    <section class="informations">
+
+        <h1 class="informations__title">Ok mais euh... Ça inclut quoi, en vrai ?</h1>
+
+        <!-- Une information -->
+        <div class="informations__item">
+            <h2 class="informations__item__title">Identité visuelle</h2>
+            <p class="informations__item__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
+                repellat commodi minus ducimus similique nihil doloribus sit delectus inventore fugit eligendi, vero
+                quasi voluptas blanditiis amet explicabo atque repellendus distinctio quod. Suscipit accusantium
+                voluptate odio sed at libero, molestias non! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Fugit, nostrum nulla temporibus rem quibusdam amet nemo, aperiam odio excepturi placeat dolores veniam
+                expedita, aut animi necessitatibus. Officiis in provident non ex maiores ipsa natus? Nobis doloribus
+                aperiam molestias magni odit.</p>
+        </div>
+
+        <!-- Une information -->
+        <div class="informations__item">
+            <h2 class="informations__item__title">Carte de visite</h2>
+            <p class="informations__item__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
+                repellat commodi minus ducimus similique nihil doloribus sit delectus inventore fugit eligendi, vero
+                quasi voluptas blanditiis amet explicabo atque repellendus distinctio quod. Suscipit accusantium
+                voluptate odio sed at libero, molestias non! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Fugit, nostrum nulla temporibus rem quibusdam amet nemo, aperiam odio excepturi placeat dolores veniam
+                expedita, aut animi necessitatibus. Officiis in provident non ex maiores ipsa natus? Nobis doloribus
+                aperiam molestias magni odit.</p>
+        </div>
+
+        <!-- Une information -->
+        <div class="informations__item">
+            <h2 class="informations__item__title">Brochure</h2>
+            <p class="informations__item__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
+                repellat commodi minus ducimus similique nihil doloribus sit delectus inventore fugit eligendi, vero
+                quasi voluptas blanditiis amet explicabo atque repellendus distinctio quod. Suscipit accusantium
+                voluptate odio sed at libero, molestias non! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Fugit, nostrum nulla temporibus rem quibusdam amet nemo, aperiam odio excepturi placeat dolores veniam
+                expedita, aut animi necessitatibus. Officiis in provident non ex maiores ipsa natus? Nobis doloribus
+                aperiam molestias magni odit.</p>
+        </div>
+
+        <!-- Une information -->
+        <div class="informations__item">
+            <h2 class="informations__item__title">Site vitrine</h2>
+            <p class="informations__item__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
+                repellat commodi minus ducimus similique nihil doloribus sit delectus inventore fugit eligendi, vero
+                quasi voluptas blanditiis amet explicabo atque repellendus distinctio quod. Suscipit accusantium
+                voluptate odio sed at libero, molestias non! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Fugit, nostrum nulla temporibus rem quibusdam amet nemo, aperiam odio excepturi placeat dolores veniam
+                expedita, aut animi necessitatibus. Officiis in provident non ex maiores ipsa natus? Nobis doloribus
+                aperiam molestias magni odit.</p>
+        </div>
+
+        <!-- Une information -->
+        <div class="informations__item">
+            <h2 class="informations__item__title">Réseaux sociaux</h2>
+            <p class="informations__item__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
+                repellat commodi minus ducimus similique nihil doloribus sit delectus inventore fugit eligendi, vero
+                quasi voluptas blanditiis amet explicabo atque repellendus distinctio quod. Suscipit accusantium
+                voluptate odio sed at libero, molestias non! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Fugit, nostrum nulla temporibus rem quibusdam amet nemo, aperiam odio excepturi placeat dolores veniam
+                expedita, aut animi necessitatibus. Officiis in provident non ex maiores ipsa natus? Nobis doloribus
+                aperiam molestias magni odit.</p>
+        </div>
+
+        <a href="/"><button>Prêt à te lancer ?</button></a>
+
+    </section>
     
-    <!-- ICI AJOUT DU HEADER -->
 
+    <!-- DÉBUT DU FOOTER -->
 
-    <!-- ICI AJOUT DU FOOTER -->
+    <footer class="footer">
+
+        <img src="/" alt="logo" class="footer__logo" />
+
+        <nav class="footer__menu">
+            <ul class="footer__menu__list">
+                <li class="footer__menu__list__item"><a href="#" class="header__menu__list__item__link">Mentions légales</a></li>
+                <li class="footer__menu__list__item"><a href="#" class="header__menu__list__item__link">Services</a>
+                </li>
+                <li class="footer__menu__list__item"><a href="#" class="header__menu__list__item__link">À propos</a>
+                </li>
+            </ul>
+
+            <ul class="footer__menu__socials">
+                <li class="footer__menu__socials__item"><a href="#" class="header__menu__socials__item__link">
+                    <i data-feather="linkedin" class="header__menu__socials__item__icon"></i>
+                </a></li>
+                <li class="footer__menu__socials__item"><a href="#" class="header__menu__socials__item__link">
+                    <i data-feather="instagram" class="header__menu__socials__item__icon"></i>
+                </a></li>
+                <li class="footer__menu__socials__item"><a href="#" class="header__menu__socials__item__link">
+                    <i data-feather="github" class="header__menu__socials__item__icon"></i>
+                </a></li>
+            </ul>
+
+            <a href="/"><button>On parle de ton projet ?</button></a>
+        </nav>
+
+        <p class="footer__copyright">Copyright &#169; 2021 Amandine Colin. Tous droits réservés.</p>
+
+    </footer>
+
+    <!-- FIN DU FOOTER -->
+
+    <script>
+        feather.replace()
+    </script>
 
 </body>
+
 </html>

@@ -5,11 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 
 <body>
 
-    <!-- ICI AJOUT DU HEADER -->
+    <!-- DÉBUT DU HEADER -->
+
+    <header class="header">
+
+        <img src="/" alt="logo" class="header__logo" />
+
+        <nav class="header__menu">
+            <ul class="header__menu__list">
+                <li class="header__menu__list__item"><a href="#" class="header__menu__list__item__link">Services</a></li>
+                <li class="header__menu__list__item"><a href="#" class="header__menu__list__item__link">Portfolio</a></li>
+                <li class="header__menu__list__item"><a href="#" class="header__menu__list__item__link">À propos</a></li>
+            </ul>
+            <a href="/"><button>On parle de ton projet ?</button></a>
+        </nav>
+
+        <!-- Toggle light / dark -->
+        <div class="header__toggle">
+            <button>Toggle</button>
+        </div>
+
+    </header>
+
+    <!-- FIN DU HEADER -->
 
     <h1>Portfolio</h1>
 
@@ -157,7 +180,45 @@
 
     <a href="/"><button>Retour à l'accueil</button></a>
 
-    <!-- ICI AJOUT DU FOOTER -->
+    <!-- DÉBUT DU FOOTER -->
+
+    <footer class="footer">
+
+        <img src="/" alt="logo" class="footer__logo" />
+
+        <nav class="footer__menu">
+            <ul class="footer__menu__list">
+                <li class="footer__menu__list__item"><a href="#" class="header__menu__list__item__link">Mentions légales</a></li>
+                <li class="footer__menu__list__item"><a href="#" class="header__menu__list__item__link">Services</a>
+                </li>
+                <li class="footer__menu__list__item"><a href="#" class="header__menu__list__item__link">À propos</a>
+                </li>
+            </ul>
+
+            <ul class="footer__menu__socials">
+                <li class="footer__menu__socials__item"><a href="#" class="header__menu__socials__item__link">
+                    <i data-feather="linkedin" class="header__menu__socials__item__icon"></i>
+                </a></li>
+                <li class="footer__menu__socials__item"><a href="#" class="header__menu__socials__item__link">
+                    <i data-feather="instagram" class="header__menu__socials__item__icon"></i>
+                </a></li>
+                <li class="footer__menu__socials__item"><a href="#" class="header__menu__socials__item__link">
+                    <i data-feather="github" class="header__menu__socials__item__icon"></i>
+                </a></li>
+            </ul>
+
+            <a href="/"><button>On parle de ton projet ?</button></a>
+        </nav>
+
+        <p class="footer__copyright">Copyright &#169; 2021 Amandine Colin. Tous droits réservés.</p>
+
+    </footer>
+
+    <!-- FIN DU FOOTER -->
+
+    <script>
+        feather.replace()
+    </script>
 
 </body>
 
