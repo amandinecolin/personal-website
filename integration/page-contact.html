@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<body>
+
+    <div class="contact__container">
+
+        <!-- Exit button -->
+        <a href="/"><button class="exit__container">X</button></a>
+
+        <!-- Toggle button -->
+        <div class="toggle__container"></div>
+
+        <!-- Contact form -->
+        <img src="/" alt="logo" />
+        <h1>Me contacter</h1>
+
+        <form method="POST">
+
+            <label for="fname">Prénom</label>
+            <input type="text" id="fname" name="firstname" placeholder="Ton prénom...">
+
+            <label for="lname">Nom</label>
+            <input type="text" id="lname" name="lastname" placeholder="Ton nom...">
+
+            <label for="email">Adresse e-mail</label>
+            <input type="text" id="email" name="email" placeholder="Ton adresse e-mail...">
+
+            <label for="why">Sélectionne le motif de ta demande</label>
+            <select id="why" name="why">
+                <option value="infos">Informations générales</option>
+                <option value="project">Discuter de mon projet</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message"
+                placeholder="Écris ton message ici. Si tu souhaites discuter de ton projet, n'hésite pas à me donner un maximum d'infos !"
+                style="height:200px"></textarea>
+
+            <input type="submit" value="Envoyer">
+
+        </form>
+    </div>
+
+</body>
+
+</html>
